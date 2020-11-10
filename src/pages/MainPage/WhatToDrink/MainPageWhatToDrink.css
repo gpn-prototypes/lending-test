@@ -1,0 +1,38 @@
+.Test--MainPageWhatToDrink {
+  position: relative;
+  max-width: var(--section-width);
+  margin: 0 auto var(--section-spase) auto;
+
+  &-Title {
+    margin-bottom: var(--space-2xl);
+  }
+
+  &-InputLabel {
+    margin-bottom: var(--space-xs);
+  }
+
+  &-InputWrapper {
+    width: 400px;
+  }
+
+  &-Tabs {
+    margin-bottom: var(--space-l);
+  }
+
+  &-List {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: var(--space-xs);
+  }
+
+  &-Image {
+    display: none;
+    @media (min-width: 760px) {
+      display: block;
+      position: absolute;
+      width: 230px;
+      right: -120px;
+      top: 80px;
+    }
+  }
+}

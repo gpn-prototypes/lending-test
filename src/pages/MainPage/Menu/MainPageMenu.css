@@ -1,0 +1,16 @@
+.Test--MainPageMenu {
+  max-width: var(--section-width);
+  margin: 0 auto var(--section-spase) auto;
+
+  &-Title {
+    margin-bottom: var(--space-2xl);
+  }
+
+  &-SubTitle {
+    margin-bottom: var(--space-xl);
+  }
+
+  &-Attach {
+    max-width: 400px;
+  }
+}

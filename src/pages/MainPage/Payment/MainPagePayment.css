@@ -1,0 +1,26 @@
+.Test--MainPagePayment {
+  max-width: var(--section-width);
+  margin: 0 auto var(--section-spase) auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &-Title {
+    margin-bottom: var(--space-2xl);
+  }
+
+  &-ChoiceGroupWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--space-3xl);
+  }
+
+  &-OrderPrice {
+    margin-bottom: var(--space-2xl);
+  }
+
+  &-ButtonWrapper {
+    display: flex;
+    justify-content: center;
+  }
+}

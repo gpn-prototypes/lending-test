@@ -1,0 +1,32 @@
+.Test--MainPageIWantToEat {
+  position: relative;
+  max-width: var(--section-width);
+  margin: var(--section-spase) auto;
+
+  &-Title {
+    margin-bottom: var(--space-m);
+  }
+
+  &-SubTitle {
+    margin-bottom: var(--space-3xl);
+  }
+
+  &-InputLabel {
+    margin-bottom: var(--space-xs);
+  }
+
+  &-Input {
+    width: 400px;
+  }
+
+  &-Image {
+    display: none;
+    @media (min-width: 760px) {
+      display: block;
+      position: absolute;
+      width: 300px;
+      right: -120px;
+      bottom: 0;
+    }
+  }
+}

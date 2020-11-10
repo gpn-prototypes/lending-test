@@ -1,0 +1,8 @@
+.Test--MainPage {
+  &-Contrent {
+    padding-top: var(--section-spase);
+  }
+  &-EatSection {
+    margin-bottom: var(--section-spase);
+  }
+}
